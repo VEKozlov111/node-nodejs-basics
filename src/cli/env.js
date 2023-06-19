@@ -1,5 +1,3 @@
-
-
 const parseEnv = () => {
   const env = process.env;
   const arr = [];
