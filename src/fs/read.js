@@ -15,8 +15,6 @@ const read = async () => {
         .then((text) => console.log(text))
     },
     error => { throw new Error('FS operation failed'); }
-
-
   )
 };
 
